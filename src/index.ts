@@ -75,22 +75,8 @@ export type Interest =
   | 'gambling'
   | 'cycling';
 
-export type ActivityType =
-  | 'active'
-  | 'social'
-  | 'amusement'
-  | 'self_improvement'
-  | 'outgoing';
+export type ActivityType = 'active' | 'social' | 'amusement' | 'self_improvement' | 'outgoing';
 
-export type DayPeriod =
-  | 'morning'
-  | 'afternoon'
-  | 'early_evening'
-  | 'late_evening';
+export type DayPeriod = 'morning' | 'afternoon' | 'early_evening' | 'late_evening';
 
-export const chronologicallyOrderedDayPeriods = [
-  'morning',
-  'afternoon',
-  'early_evening',
-  'late_evening',
-];
+export const chronologicallyOrderedDayPeriods = ['morning', 'afternoon', 'early_evening', 'late_evening'];
