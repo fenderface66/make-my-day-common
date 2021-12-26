@@ -5,6 +5,7 @@
     "declaration": true,
     "outDir": "./lib",
     "rootDir": "./src",
+    "esModuleInterop": true,        /* Enables intero between CommonJS and ES */
     "strict": true,
     "moduleResolution": "node",
     "allowJs": true
